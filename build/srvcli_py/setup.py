@@ -1,1 +1,0 @@
-/home/arya/robot_ws/src/srvcli_py/setup.py

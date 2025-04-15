@@ -1,4 +1,0 @@
-[console_scripts]
-client = srvcli_py.client:main
-server = srvcli_py.server:main
-

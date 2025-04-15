@@ -1,9 +1,0 @@
-source;share/param_callback/hook/pythonpath.ps1
-source;share/param_callback/hook/pythonpath.dsv
-source;share/param_callback/hook/pythonpath.sh
-source;share/param_callback/hook/ament_prefix_path.ps1
-source;share/param_callback/hook/ament_prefix_path.dsv
-source;share/param_callback/hook/ament_prefix_path.sh
-source;../../build/param_callback/share/param_callback/hook/pythonpath_develop.ps1
-source;../../build/param_callback/share/param_callback/hook/pythonpath_develop.dsv
-source;../../build/param_callback/share/param_callback/hook/pythonpath_develop.sh

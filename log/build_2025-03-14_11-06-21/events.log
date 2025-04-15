@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000585] (-) JobUnselected: {'identifier': 'pkg_interfaces'}
-[0.000632] (-) JobUnselected: {'identifier': 'pubsub_py'}
-[0.000662] (-) JobUnselected: {'identifier': 'srvcli_py'}
-[0.001078] (-) EventReactorShutdown: {}

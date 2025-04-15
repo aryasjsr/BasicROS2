@@ -1,1 +1,0 @@
-/home/arya/robot_ws/build/pkg_interfaces/rosidl_typesupport_introspection_cpp/pkg_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp

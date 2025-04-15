@@ -1,1 +1,0 @@
-/home/arya/robot_ws/src/action_py/setup.py

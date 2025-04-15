@@ -1,5 +1,0 @@
-[0.020s] Invoking command in '/home/arya/robot_ws/build/robot_bringub': AMENT_PREFIX_PATH=/home/arya/robot_ws/install/pubsub_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/arya/robot_ws/build/pubsub_py:/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arya/robot_ws/build/robot_bringub -- -j4 -l4
-[0.050s] [0mCMake Error: The source directory "/home/arya/robot_ws/src/robot_bringub" does not exist.
-[0.050s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.052s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.056s] Invoked command in '/home/arya/robot_ws/build/robot_bringub' returned '2': AMENT_PREFIX_PATH=/home/arya/robot_ws/install/pubsub_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/arya/robot_ws/build/pubsub_py:/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arya/robot_ws/build/robot_bringub -- -j4 -l4

@@ -1,1 +1,0 @@
-/home/arya/robot_ws/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/msg/__init__.py

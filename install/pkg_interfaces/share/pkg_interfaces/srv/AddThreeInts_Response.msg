@@ -1,1 +1,0 @@
-/home/arya/robot_ws/build/pkg_interfaces/rosidl_cmake/srv/AddThreeInts_Response.msg

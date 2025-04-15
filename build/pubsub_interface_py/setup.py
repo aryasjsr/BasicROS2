@@ -1,1 +1,0 @@
-/home/arya/robot_ws/src/pubsub_interface_py/setup.py

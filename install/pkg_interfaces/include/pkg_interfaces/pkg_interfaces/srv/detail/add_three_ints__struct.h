@@ -1,1 +1,0 @@
-/home/arya/robot_ws/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/srv/detail/add_three_ints__struct.h

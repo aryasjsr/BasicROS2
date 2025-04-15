@@ -1,1 +1,0 @@
-/home/arya/robot_ws/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/msg/detail/num__type_support.h

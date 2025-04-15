@@ -1,4 +1,0 @@
-[console_scripts]
-pub = pubsub_py.pub:main
-sub = pubsub_py.sub:main
-

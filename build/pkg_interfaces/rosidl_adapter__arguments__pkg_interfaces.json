@@ -1,9 +1,0 @@
-{
-  "package_name": "pkg_interfaces",
-  "non_idl_tuples": [
-    "/home/arya/robot_ws/src/pkg_interfaces:msg/Num.msg",
-    "/home/arya/robot_ws/src/pkg_interfaces:msg/Sphere.msg",
-    "/home/arya/robot_ws/src/pkg_interfaces:srv/AddThreeInts.srv",
-    "/home/arya/robot_ws/src/pkg_interfaces:action/CountUntil.action"
-  ]
-}
