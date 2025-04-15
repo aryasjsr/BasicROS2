@@ -1,0 +1,24 @@
+[1.195s] Invoking command in '/home/arya/robot_ws/build/action_py': CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:/home/arya/robot_ws/install/tutorial_interfaces:/home/arya/robot_ws/install/more_interfaces PYTHONPATH=/home/arya/robot_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/action_py/build --no-deps symlink_data
+[1.540s] running develop
+[1.730s] running egg_info
+[1.733s] creating action_py.egg-info
+[1.733s] writing action_py.egg-info/PKG-INFO
+[1.733s] writing dependency_links to action_py.egg-info/dependency_links.txt
+[1.733s] writing entry points to action_py.egg-info/entry_points.txt
+[1.733s] writing requirements to action_py.egg-info/requires.txt
+[1.733s] writing top-level names to action_py.egg-info/top_level.txt
+[1.734s] writing manifest file 'action_py.egg-info/SOURCES.txt'
+[1.734s] reading manifest file 'action_py.egg-info/SOURCES.txt'
+[1.734s] writing manifest file 'action_py.egg-info/SOURCES.txt'
+[1.735s] running build_ext
+[1.736s] Creating /home/arya/robot_ws/install/action_py/lib/python3.10/site-packages/action-py.egg-link (link to .)
+[1.736s] Installing count_until script to /home/arya/robot_ws/install/action_py/lib/action_py
+[1.737s] 
+[1.737s] Installed /home/arya/robot_ws/build/action_py
+[1.737s] running symlink_data
+[1.737s] creating /home/arya/robot_ws/install/action_py/share/ament_index
+[1.737s] creating /home/arya/robot_ws/install/action_py/share/ament_index/resource_index
+[1.737s] creating /home/arya/robot_ws/install/action_py/share/ament_index/resource_index/packages
+[1.737s] symbolically linking /home/arya/robot_ws/build/action_py/resource/action_py -> /home/arya/robot_ws/install/action_py/share/ament_index/resource_index/packages
+[1.737s] symbolically linking /home/arya/robot_ws/build/action_py/package.xml -> /home/arya/robot_ws/install/action_py/share/action_py
+[1.791s] Invoked command in '/home/arya/robot_ws/build/action_py' returned '0': CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:/home/arya/robot_ws/install/tutorial_interfaces:/home/arya/robot_ws/install/more_interfaces PYTHONPATH=/home/arya/robot_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/action_py/build --no-deps symlink_data

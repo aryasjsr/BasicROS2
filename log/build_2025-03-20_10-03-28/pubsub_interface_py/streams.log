@@ -1,0 +1,18 @@
+[1.194s] Invoking command in '/home/arya/robot_ws/build/pubsub_interface_py': AMENT_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces LD_LIBRARY_PATH=/home/arya/robot_ws/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arya/robot_ws/build/pubsub_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_interface_py/lib/python3.10/site-packages:/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_interface_py/build --no-deps symlink_data
+[1.543s] running develop
+[1.750s] running egg_info
+[1.751s] writing pubsub_interface_py.egg-info/PKG-INFO
+[1.751s] writing dependency_links to pubsub_interface_py.egg-info/dependency_links.txt
+[1.751s] writing entry points to pubsub_interface_py.egg-info/entry_points.txt
+[1.751s] writing requirements to pubsub_interface_py.egg-info/requires.txt
+[1.752s] writing top-level names to pubsub_interface_py.egg-info/top_level.txt
+[1.753s] reading manifest file 'pubsub_interface_py.egg-info/SOURCES.txt'
+[1.756s] writing manifest file 'pubsub_interface_py.egg-info/SOURCES.txt'
+[1.757s] running build_ext
+[1.758s] Creating /home/arya/robot_ws/install/pubsub_interface_py/lib/python3.10/site-packages/pubsub-interface-py.egg-link (link to .)
+[1.758s] Installing pub script to /home/arya/robot_ws/install/pubsub_interface_py/lib/pubsub_interface_py
+[1.758s] Installing sub script to /home/arya/robot_ws/install/pubsub_interface_py/lib/pubsub_interface_py
+[1.759s] 
+[1.759s] Installed /home/arya/robot_ws/build/pubsub_interface_py
+[1.759s] running symlink_data
+[1.803s] Invoked command in '/home/arya/robot_ws/build/pubsub_interface_py' returned '0': AMENT_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces LD_LIBRARY_PATH=/home/arya/robot_ws/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arya/robot_ws/build/pubsub_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_interface_py/lib/python3.10/site-packages:/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_interface_py/build --no-deps symlink_data

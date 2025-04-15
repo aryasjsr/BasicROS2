@@ -1,0 +1,18 @@
+[1.280s] Invoking command in '/home/arya/robot_ws/build/pubsub_py': PYTHONPATH=/home/arya/robot_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_py/build --no-deps symlink_data
+[1.624s] running develop
+[1.864s] running egg_info
+[1.864s] writing pubsub_py.egg-info/PKG-INFO
+[1.864s] writing dependency_links to pubsub_py.egg-info/dependency_links.txt
+[1.864s] writing entry points to pubsub_py.egg-info/entry_points.txt
+[1.870s] writing requirements to pubsub_py.egg-info/requires.txt
+[1.870s] writing top-level names to pubsub_py.egg-info/top_level.txt
+[1.876s] reading manifest file 'pubsub_py.egg-info/SOURCES.txt'
+[1.880s] writing manifest file 'pubsub_py.egg-info/SOURCES.txt'
+[1.884s] running build_ext
+[1.886s] Creating /home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub-py.egg-link (link to .)
+[1.888s] Installing pub script to /home/arya/robot_ws/install/pubsub_py/lib/pubsub_py
+[1.890s] Installing sub script to /home/arya/robot_ws/install/pubsub_py/lib/pubsub_py
+[1.892s] 
+[1.892s] Installed /home/arya/robot_ws/build/pubsub_py
+[1.893s] running symlink_data
+[1.954s] Invoked command in '/home/arya/robot_ws/build/pubsub_py' returned '0': PYTHONPATH=/home/arya/robot_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_py/build --no-deps symlink_data

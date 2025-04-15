@@ -1,0 +1,18 @@
+[1.148s] Invoking command in '/home/arya/robot_ws/build/action_py': CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:/home/arya/robot_ws/install/tutorial_interfaces:/home/arya/robot_ws/install/robot_bringup:/home/arya/robot_ws/install/more_interfaces PYTHONPATH=/home/arya/robot_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/action_py/build --no-deps symlink_data
+[1.577s] running develop
+[1.810s] running egg_info
+[1.810s] writing action_py.egg-info/PKG-INFO
+[1.811s] writing dependency_links to action_py.egg-info/dependency_links.txt
+[1.811s] writing entry points to action_py.egg-info/entry_points.txt
+[1.811s] writing requirements to action_py.egg-info/requires.txt
+[1.811s] writing top-level names to action_py.egg-info/top_level.txt
+[1.813s] reading manifest file 'action_py.egg-info/SOURCES.txt'
+[1.814s] writing manifest file 'action_py.egg-info/SOURCES.txt'
+[1.816s] running build_ext
+[1.817s] Creating /home/arya/robot_ws/install/action_py/lib/python3.10/site-packages/action-py.egg-link (link to .)
+[1.821s] Installing count_until_client script to /home/arya/robot_ws/install/action_py/lib/action_py
+[1.821s] Installing count_until_server script to /home/arya/robot_ws/install/action_py/lib/action_py
+[1.821s] 
+[1.821s] Installed /home/arya/robot_ws/build/action_py
+[1.821s] running symlink_data
+[1.868s] Invoked command in '/home/arya/robot_ws/build/action_py' returned '0': CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:/home/arya/robot_ws/install/tutorial_interfaces:/home/arya/robot_ws/install/robot_bringup:/home/arya/robot_ws/install/more_interfaces PYTHONPATH=/home/arya/robot_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/action_py/build --no-deps symlink_data

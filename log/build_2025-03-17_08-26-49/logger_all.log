@@ -1,0 +1,383 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x718e69f2fee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x718e6a07d300>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x718e6a07d300>>)
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.366s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arya/robot_ws'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_interfaces) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_interfaces' with type 'ros.ament_cmake' and name 'pkg_interfaces'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_interface_py) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pubsub_interface_py' with type 'ros.ament_python' and name 'pubsub_interface_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/pubsub_py) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pubsub_py' with type 'ros.ament_python' and name 'pubsub_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/srvcli_py) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/srvcli_py' with type 'ros.ament_python' and name 'srvcli_py'
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/arya/robot_ws/install
+[0.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.513s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arya/robot_ws/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arya/robot_ws/install/more_interfaces', 'merge_install': False, 'path': '/home/arya/robot_ws/src/more_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'pkg_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.513s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arya/robot_ws/build/pkg_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arya/robot_ws/install/pkg_interfaces', 'merge_install': False, 'path': '/home/arya/robot_ws/src/pkg_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'pubsub_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arya/robot_ws/build/pubsub_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arya/robot_ws/install/pubsub_py', 'merge_install': False, 'path': '/home/arya/robot_ws/src/pubsub_py', 'symlink_install': True, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'srvcli_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'srvcli_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arya/robot_ws/build/srvcli_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arya/robot_ws/install/srvcli_py', 'merge_install': False, 'path': '/home/arya/robot_ws/src/srvcli_py', 'symlink_install': True, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'pubsub_interface_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub_interface_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arya/robot_ws/build/pubsub_interface_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arya/robot_ws/install/pubsub_interface_py', 'merge_install': False, 'path': '/home/arya/robot_ws/src/pubsub_interface_py', 'symlink_install': True, 'test_result_base': None}
+[0.516s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arya/robot_ws/src/pkg_interfaces' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arya/robot_ws/src/pkg_interfaces'
+[0.521s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arya/robot_ws/src/more_interfaces' with build type 'ament_cmake'
+[0.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arya/robot_ws/src/more_interfaces'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arya/robot_ws/src/pubsub_py' with build type 'ament_python'
+[0.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_py', 'ament_prefix_path')
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/hook/ament_prefix_path.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/hook/ament_prefix_path.dsv'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/hook/ament_prefix_path.sh'
+[0.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.540s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arya/robot_ws/src/srvcli_py' with build type 'ament_python'
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('srvcli_py', 'ament_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/hook/ament_prefix_path.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/hook/ament_prefix_path.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/hook/ament_prefix_path.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arya/robot_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/arya/robot_ws/build/pkg_interfaces -- -j4 -l4
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arya/robot_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/arya/robot_ws/build/more_interfaces -- -j4 -l4
+[0.866s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arya/robot_ws/src/pubsub_py'
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.228s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arya/robot_ws/src/srvcli_py'
+[1.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arya/robot_ws/build/srvcli_py': PYTHONPATH=/home/arya/robot_ws/build/srvcli_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/srvcli_py/build --no-deps symlink_data
+[1.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arya/robot_ws/build/pubsub_py': PYTHONPATH=/home/arya/robot_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_py/build --no-deps symlink_data
+[2.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('srvcli_py', 'pythonpath_develop')
+[2.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arya/robot_ws/build/srvcli_py' returned '0': PYTHONPATH=/home/arya/robot_ws/build/srvcli_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/srvcli_py/build --no-deps symlink_data
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/build/srvcli_py/share/srvcli_py/hook/pythonpath_develop.ps1'
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/build/srvcli_py/share/srvcli_py/hook/pythonpath_develop.dsv'
+[2.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/build/srvcli_py/share/srvcli_py/hook/pythonpath_develop.sh'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/srvcli_py' for CMake module files
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/srvcli_py' for CMake config files
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/srvcli_py/lib'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/srvcli_py/bin'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/srvcli_py/lib/pkgconfig/srvcli_py.pc'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages'
+[2.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('srvcli_py', 'pythonpath')
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/hook/pythonpath.ps1'
+[2.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/hook/pythonpath.dsv'
+[2.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/hook/pythonpath.sh'
+[2.449s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/srvcli_py/bin'
+[2.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srvcli_py)
+[2.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/package.ps1'
+[2.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/package.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/package.sh'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/package.bash'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/srvcli_py/share/srvcli_py/package.zsh'
+[2.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arya/robot_ws/install/srvcli_py/share/colcon-core/packages/srvcli_py)
+[2.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_py', 'pythonpath_develop')
+[2.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/build/pubsub_py/share/pubsub_py/hook/pythonpath_develop.ps1'
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arya/robot_ws/build/pubsub_py' returned '0': PYTHONPATH=/home/arya/robot_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_py/build --no-deps symlink_data
+[2.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/build/pubsub_py/share/pubsub_py/hook/pythonpath_develop.dsv'
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/build/pubsub_py/share/pubsub_py/hook/pythonpath_develop.sh'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_py' for CMake module files
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_py' for CMake config files
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_py/lib'
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_py/bin'
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_py/lib/pkgconfig/pubsub_py.pc'
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages'
+[2.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_py', 'pythonpath')
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/hook/pythonpath.ps1'
+[2.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/hook/pythonpath.dsv'
+[2.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/hook/pythonpath.sh'
+[2.536s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_py/bin'
+[2.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub_py)
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/package.ps1'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/package.dsv'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/package.sh'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/package.bash'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_py/share/pubsub_py/package.zsh'
+[2.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arya/robot_ws/install/pubsub_py/share/colcon-core/packages/pubsub_py)
+[3.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arya/robot_ws/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/arya/robot_ws/build/pkg_interfaces -- -j4 -l4
+[3.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arya/robot_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/arya/robot_ws/build/pkg_interfaces
+[3.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_interfaces)
+[3.803s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces' for CMake module files
+[3.804s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces' for CMake config files
+[3.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arya/robot_ws/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/arya/robot_ws/build/pkg_interfaces
+[3.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'cmake_prefix_path')
+[3.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.ps1'
+[3.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.dsv'
+[3.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.sh'
+[3.807s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/lib'
+[3.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'ld_library_path_lib')
+[3.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.ps1'
+[3.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.dsv'
+[3.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.sh'
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/bin'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/lib/pkgconfig/pkg_interfaces.pc'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/lib/python3.10/site-packages'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/bin'
+[3.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.ps1'
+[3.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.dsv'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.sh'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.bash'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.zsh'
+[3.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arya/robot_ws/install/pkg_interfaces/share/colcon-core/packages/pkg_interfaces)
+[3.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_interfaces)
+[3.816s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces' for CMake module files
+[3.816s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces' for CMake config files
+[3.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'cmake_prefix_path')
+[3.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.ps1'
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.dsv'
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/cmake_prefix_path.sh'
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/lib'
+[3.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_interfaces', 'ld_library_path_lib')
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.ps1'
+[3.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.dsv'
+[3.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/hook/ld_library_path_lib.sh'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/bin'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/lib/pkgconfig/pkg_interfaces.pc'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/lib/python3.10/site-packages'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pkg_interfaces/bin'
+[3.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.ps1'
+[3.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.dsv'
+[3.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.sh'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.bash'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.zsh'
+[3.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arya/robot_ws/install/pkg_interfaces/share/colcon-core/packages/pkg_interfaces)
+[3.831s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arya/robot_ws/src/pubsub_interface_py' with build type 'ament_python'
+[3.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_interface_py', 'ament_prefix_path')
+[3.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/hook/ament_prefix_path.ps1'
+[3.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/hook/ament_prefix_path.dsv'
+[3.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/hook/ament_prefix_path.sh'
+[3.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.295s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arya/robot_ws/src/pubsub_interface_py'
+[4.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arya/robot_ws/build/pubsub_interface_py': CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:/home/arya/robot_ws/install/tutorial_interfaces:/home/arya/robot_ws/install/more_interfaces PYTHONPATH=/home/arya/robot_ws/build/pubsub_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_interface_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_interface_py/build --no-deps symlink_data
+[5.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_interface_py', 'pythonpath_develop')
+[5.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arya/robot_ws/build/pubsub_interface_py' returned '0': CMAKE_PREFIX_PATH=/home/arya/robot_ws/install/pkg_interfaces:/home/arya/robot_ws/install/tutorial_interfaces:/home/arya/robot_ws/install/more_interfaces PYTHONPATH=/home/arya/robot_ws/build/pubsub_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_interface_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/pubsub_interface_py/build --no-deps symlink_data
+[5.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/build/pubsub_interface_py/share/pubsub_interface_py/hook/pythonpath_develop.ps1'
+[5.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/build/pubsub_interface_py/share/pubsub_interface_py/hook/pythonpath_develop.dsv'
+[5.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/build/pubsub_interface_py/share/pubsub_interface_py/hook/pythonpath_develop.sh'
+[5.421s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_interface_py' for CMake module files
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_interface_py' for CMake config files
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_interface_py/lib'
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_interface_py/bin'
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_interface_py/lib/pkgconfig/pubsub_interface_py.pc'
+[5.423s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_interface_py/lib/python3.10/site-packages'
+[5.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub_interface_py', 'pythonpath')
+[5.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/hook/pythonpath.ps1'
+[5.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/hook/pythonpath.dsv'
+[5.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/hook/pythonpath.sh'
+[5.424s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/pubsub_interface_py/bin'
+[5.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub_interface_py)
+[5.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/package.ps1'
+[5.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/package.dsv'
+[5.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/package.sh'
+[5.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/package.bash'
+[5.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/pubsub_interface_py/share/pubsub_interface_py/package.zsh'
+[5.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arya/robot_ws/install/pubsub_interface_py/share/colcon-core/packages/pubsub_interface_py)
+[8.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arya/robot_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --build /home/arya/robot_ws/build/more_interfaces -- -j4 -l4
+[8.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arya/robot_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/arya/robot_ws/build/more_interfaces
+[8.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[8.592s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces' for CMake module files
+[8.593s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces' for CMake config files
+[8.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[8.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[8.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[8.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arya/robot_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arya/robot_ws/install/srvcli_py:/home/arya/robot_ws/install/pubsub_py:/home/arya/robot_ws/install/pubsub_interface_py:/opt/ros/humble /usr/bin/cmake --install /home/arya/robot_ws/build/more_interfaces
+[8.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[8.596s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/lib'
+[8.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[8.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[8.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[8.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[8.598s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/bin'
+[8.598s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[8.598s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/lib/python3.10/site-packages'
+[8.599s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/bin'
+[8.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.ps1'
+[8.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.dsv'
+[8.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.sh'
+[8.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.bash'
+[8.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.zsh'
+[8.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arya/robot_ws/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[8.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[8.603s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces' for CMake module files
+[8.604s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces' for CMake config files
+[8.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[8.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[8.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[8.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[8.606s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/lib'
+[8.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[8.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[8.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[8.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[8.608s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/bin'
+[8.608s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[8.608s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/lib/python3.10/site-packages'
+[8.608s] Level 1:colcon.colcon_core.environment:checking '/home/arya/robot_ws/install/more_interfaces/bin'
+[8.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.ps1'
+[8.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.dsv'
+[8.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.sh'
+[8.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.bash'
+[8.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/arya/robot_ws/install/more_interfaces/share/more_interfaces/package.zsh'
+[8.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arya/robot_ws/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[8.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.612s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.621s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.638s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arya/robot_ws/install/local_setup.ps1'
+[8.640s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arya/robot_ws/install/_local_setup_util_ps1.py'
+[8.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arya/robot_ws/install/setup.ps1'
+[8.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arya/robot_ws/install/local_setup.sh'
+[8.644s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arya/robot_ws/install/_local_setup_util_sh.py'
+[8.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arya/robot_ws/install/setup.sh'
+[8.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arya/robot_ws/install/local_setup.bash'
+[8.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arya/robot_ws/install/setup.bash'
+[8.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arya/robot_ws/install/local_setup.zsh'
+[8.650s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arya/robot_ws/install/setup.zsh'

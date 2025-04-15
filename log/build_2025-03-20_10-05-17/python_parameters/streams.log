@@ -1,0 +1,17 @@
+[1.495s] Invoking command in '/home/arya/robot_ws/build/python_parameters': PYTHONPATH=/home/arya/robot_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/python_parameters/build --no-deps symlink_data
+[1.850s] running develop
+[2.020s] running egg_info
+[2.020s] writing python_parameters.egg-info/PKG-INFO
+[2.021s] writing dependency_links to python_parameters.egg-info/dependency_links.txt
+[2.023s] writing entry points to python_parameters.egg-info/entry_points.txt
+[2.023s] writing requirements to python_parameters.egg-info/requires.txt
+[2.024s] writing top-level names to python_parameters.egg-info/top_level.txt
+[2.024s] reading manifest file 'python_parameters.egg-info/SOURCES.txt'
+[2.024s] writing manifest file 'python_parameters.egg-info/SOURCES.txt'
+[2.026s] running build_ext
+[2.026s] Creating /home/arya/robot_ws/install/python_parameters/lib/python3.10/site-packages/python-parameters.egg-link (link to .)
+[2.027s] Installing minimal_parameter_node script to /home/arya/robot_ws/install/python_parameters/lib/python_parameters
+[2.027s] 
+[2.027s] Installed /home/arya/robot_ws/build/python_parameters
+[2.027s] running symlink_data
+[2.096s] Invoked command in '/home/arya/robot_ws/build/python_parameters' returned '0': PYTHONPATH=/home/arya/robot_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/python_parameters/build --no-deps symlink_data

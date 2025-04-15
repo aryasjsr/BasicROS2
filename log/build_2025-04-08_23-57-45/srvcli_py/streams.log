@@ -1,0 +1,18 @@
+[1.326s] Invoking command in '/home/arya/robot_ws/build/srvcli_py': PYTHONPATH=/home/arya/robot_ws/build/srvcli_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/srvcli_py/build --no-deps symlink_data
+[1.809s] running develop
+[1.999s] running egg_info
+[2.000s] writing srvcli_py.egg-info/PKG-INFO
+[2.001s] writing dependency_links to srvcli_py.egg-info/dependency_links.txt
+[2.002s] writing entry points to srvcli_py.egg-info/entry_points.txt
+[2.010s] writing requirements to srvcli_py.egg-info/requires.txt
+[2.011s] writing top-level names to srvcli_py.egg-info/top_level.txt
+[2.011s] reading manifest file 'srvcli_py.egg-info/SOURCES.txt'
+[2.011s] writing manifest file 'srvcli_py.egg-info/SOURCES.txt'
+[2.011s] running build_ext
+[2.011s] Creating /home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages/srvcli-py.egg-link (link to .)
+[2.015s] Installing client script to /home/arya/robot_ws/install/srvcli_py/lib/srvcli_py
+[2.016s] Installing server script to /home/arya/robot_ws/install/srvcli_py/lib/srvcli_py
+[2.016s] 
+[2.016s] Installed /home/arya/robot_ws/build/srvcli_py
+[2.017s] running symlink_data
+[2.295s] Invoked command in '/home/arya/robot_ws/build/srvcli_py' returned '0': PYTHONPATH=/home/arya/robot_ws/build/srvcli_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/srvcli_py/build --no-deps symlink_data

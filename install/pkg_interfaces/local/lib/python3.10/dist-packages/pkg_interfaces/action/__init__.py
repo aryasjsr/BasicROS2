@@ -1,0 +1,1 @@
+/home/arya/robot_ws/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/action/__init__.py

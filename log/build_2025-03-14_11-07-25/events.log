@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (pkg_interfaces) JobQueued: {'identifier': 'pkg_interfaces', 'dependencies': OrderedDict()}
+[0.000761] (pubsub_py) JobQueued: {'identifier': 'pubsub_py', 'dependencies': OrderedDict()}
+[0.000805] (srvcli_py) JobQueued: {'identifier': 'srvcli_py', 'dependencies': OrderedDict()}
+[0.000838] (pkg_interfaces) JobStarted: {'identifier': 'pkg_interfaces'}
+[0.007018] (pubsub_py) JobStarted: {'identifier': 'pubsub_py'}
+[0.013359] (srvcli_py) JobStarted: {'identifier': 'srvcli_py'}
+[0.020970] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'cmake'}
+[0.022226] (pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/arya/robot_ws/src/pkg_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arya/robot_ws/install/pkg_interfaces'], 'cwd': '/home/arya/robot_ws/build/pkg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arya'), ('OLDPWD', '/home/arya/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2835'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dev-ar:@/tmp/.ICE-unix/2835,unix/dev-ar:/tmp/.ICE-unix/2835'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c88a679_d87e_4130_9a7b_6625a0317d00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FGAQ32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/robot_ws/build/pkg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.107946] (-) TimerEvent: {}
+[0.261425] (-) TimerEvent: {}
+[0.303744] (pkg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.304565] (pkg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.304757] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.361651] (-) TimerEvent: {}
+[0.366004] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.377697] (pkg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.378452] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.379641] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.385714] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.465141] (-) TimerEvent: {}
+[0.483655] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.495899] (pkg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.496194] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.497460] (pkg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.516991] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.637924] (-) TimerEvent: {}
+[0.695441] (pkg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.738142] (-) TimerEvent: {}
+[0.779070] (pkg_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.823885] (pkg_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.838185] (-) TimerEvent: {}
+[0.901756] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.910495] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.925913] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.938573] (-) TimerEvent: {}
+[0.953885] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.989723] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.016847] (srvcli_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/arya/robot_ws/build/srvcli_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/arya/robot_ws/build/srvcli_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arya', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/arya', 'OLDPWD': '/home/arya/robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2835', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'arya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dev-ar:@/tmp/.ICE-unix/2835,unix/dev-ar:/tmp/.ICE-unix/2835', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3c88a679_d87e_4130_9a7b_6625a0317d00', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FGAQ32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arya/robot_ws/build/srvcli_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arya/robot_ws/build/srvcli_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.048545] (pubsub_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/arya/robot_ws/build/pubsub_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/arya/robot_ws/build/pubsub_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arya', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/arya', 'OLDPWD': '/home/arya/robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2835', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'arya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dev-ar:@/tmp/.ICE-unix/2835,unix/dev-ar:/tmp/.ICE-unix/2835', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3c88a679_d87e_4130_9a7b_6625a0317d00', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FGAQ32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arya/robot_ws/build/pubsub_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arya/robot_ws/build/pubsub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.050316] (-) TimerEvent: {}
+[1.067279] (pkg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.167957] (-) TimerEvent: {}
+[1.292558] (-) TimerEvent: {}
+[1.343359] (srvcli_py) StdoutLine: {'line': b'running develop\n'}
+[1.353524] (pubsub_py) StdoutLine: {'line': b'running develop\n'}
+[1.397821] (-) TimerEvent: {}
+[1.509703] (-) TimerEvent: {}
+[1.514725] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.527904] (pubsub_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.531420] (pubsub_py) StdoutLine: {'line': b'writing pubsub_py.egg-info/PKG-INFO\n'}
+[1.532374] (pubsub_py) StdoutLine: {'line': b'writing dependency_links to pubsub_py.egg-info/dependency_links.txt\n'}
+[1.532516] (pubsub_py) StdoutLine: {'line': b'writing entry points to pubsub_py.egg-info/entry_points.txt\n'}
+[1.532600] (pubsub_py) StdoutLine: {'line': b'writing requirements to pubsub_py.egg-info/requires.txt\n'}
+[1.532673] (pubsub_py) StdoutLine: {'line': b'writing top-level names to pubsub_py.egg-info/top_level.txt\n'}
+[1.532754] (pubsub_py) StdoutLine: {'line': b"reading manifest file 'pubsub_py.egg-info/SOURCES.txt'\n"}
+[1.534660] (srvcli_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.534759] (srvcli_py) StdoutLine: {'line': b'writing srvcli_py.egg-info/PKG-INFO\n'}
+[1.534854] (pubsub_py) StdoutLine: {'line': b"writing manifest file 'pubsub_py.egg-info/SOURCES.txt'\n"}
+[1.535022] (pubsub_py) StdoutLine: {'line': b'running build_ext\n'}
+[1.535096] (pubsub_py) StdoutLine: {'line': b'Creating /home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages/pubsub-py.egg-link (link to .)\n'}
+[1.535227] (srvcli_py) StdoutLine: {'line': b'writing dependency_links to srvcli_py.egg-info/dependency_links.txt\n'}
+[1.535347] (srvcli_py) StdoutLine: {'line': b'writing entry points to srvcli_py.egg-info/entry_points.txt\n'}
+[1.535429] (srvcli_py) StdoutLine: {'line': b'writing requirements to srvcli_py.egg-info/requires.txt\n'}
+[1.535499] (srvcli_py) StdoutLine: {'line': b'writing top-level names to srvcli_py.egg-info/top_level.txt\n'}
+[1.535567] (srvcli_py) StdoutLine: {'line': b"reading manifest file 'srvcli_py.egg-info/SOURCES.txt'\n"}
+[1.536034] (pubsub_py) StdoutLine: {'line': b'Installing pub script to /home/arya/robot_ws/install/pubsub_py/lib/pubsub_py\n'}
+[1.538302] (pubsub_py) StdoutLine: {'line': b'Installing sub script to /home/arya/robot_ws/install/pubsub_py/lib/pubsub_py\n'}
+[1.538492] (srvcli_py) StdoutLine: {'line': b"writing manifest file 'srvcli_py.egg-info/SOURCES.txt'\n"}
+[1.538586] (pubsub_py) StdoutLine: {'line': b'\n'}
+[1.538662] (pubsub_py) StdoutLine: {'line': b'Installed /home/arya/robot_ws/build/pubsub_py\n'}
+[1.538734] (pubsub_py) StdoutLine: {'line': b'running symlink_data\n'}
+[1.538802] (srvcli_py) StdoutLine: {'line': b'running build_ext\n'}
+[1.538871] (srvcli_py) StdoutLine: {'line': b'Creating /home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages/srvcli-py.egg-link (link to .)\n'}
+[1.539377] (srvcli_py) StdoutLine: {'line': b'Installing client script to /home/arya/robot_ws/install/srvcli_py/lib/srvcli_py\n'}
+[1.539551] (srvcli_py) StdoutLine: {'line': b'Installing server script to /home/arya/robot_ws/install/srvcli_py/lib/srvcli_py\n'}
+[1.542449] (srvcli_py) StdoutLine: {'line': b'\n'}
+[1.542678] (srvcli_py) StdoutLine: {'line': b'Installed /home/arya/robot_ws/build/srvcli_py\n'}
+[1.542779] (srvcli_py) StdoutLine: {'line': b'running symlink_data\n'}
+[1.585532] (srvcli_py) CommandEnded: {'returncode': 0}
+[1.600655] (srvcli_py) JobEnded: {'identifier': 'srvcli_py', 'rc': 0}
+[1.601650] (pubsub_py) CommandEnded: {'returncode': 0}
+[1.609889] (-) TimerEvent: {}
+[1.611859] (pubsub_py) JobEnded: {'identifier': 'pubsub_py', 'rc': 0}
+[1.710510] (-) TimerEvent: {}
+[1.810792] (-) TimerEvent: {}
+[1.938772] (-) TimerEvent: {}
+[2.029573] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.042093] (-) TimerEvent: {}
+[2.143277] (-) TimerEvent: {}
+[2.228116] (pkg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.243440] (-) TimerEvent: {}
+[2.254380] (pkg_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.256751] (pkg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.291218] (pkg_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.291565] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.291672] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.291761] (pkg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.314650] (pkg_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.344465] (-) TimerEvent: {}
+[2.391096] (pkg_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.429732] (pkg_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.432408] (pkg_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.437645] (pkg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.445263] (-) TimerEvent: {}
+[2.490333] (pkg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.505419] (pkg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/arya/robot_ws/build/pkg_interfaces\n'}
+[2.516658] (pkg_interfaces) CommandEnded: {'returncode': 0}
+[2.517444] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'build'}
+[2.518930] (pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arya/robot_ws/build/pkg_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/arya/robot_ws/build/pkg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arya'), ('OLDPWD', '/home/arya/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2835'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dev-ar:@/tmp/.ICE-unix/2835,unix/dev-ar:/tmp/.ICE-unix/2835'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c88a679_d87e_4130_9a7b_6625a0317d00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FGAQ32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/robot_ws/build/pkg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.545337] (-) TimerEvent: {}
+[2.566391] (pkg_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.577249] (pkg_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.585452] (pkg_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_pkg_interfaces\n'}
+[2.645975] (-) TimerEvent: {}
+[2.749585] (-) TimerEvent: {}
+[2.858235] (pkg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.858465] (-) TimerEvent: {}
+[2.858636] (pkg_interfaces) StdoutLine: {'line': b'creating pkg_interfaces.egg-info\n'}
+[2.858739] (pkg_interfaces) StdoutLine: {'line': b'writing pkg_interfaces.egg-info/PKG-INFO\n'}
+[2.858814] (pkg_interfaces) StdoutLine: {'line': b'writing dependency_links to pkg_interfaces.egg-info/dependency_links.txt\n'}
+[2.858886] (pkg_interfaces) StdoutLine: {'line': b'writing top-level names to pkg_interfaces.egg-info/top_level.txt\n'}
+[2.858954] (pkg_interfaces) StdoutLine: {'line': b"writing manifest file 'pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.862155] (pkg_interfaces) StdoutLine: {'line': b"reading manifest file 'pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.862289] (pkg_interfaces) StdoutLine: {'line': b"writing manifest file 'pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.902940] (pkg_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_pkg_interfaces_egg\n'}
+[2.959207] (-) TimerEvent: {}
+[3.116709] (-) TimerEvent: {}
+[3.139262] (pkg_interfaces) StdoutLine: {'line': b'[  4%] Built target pkg_interfaces__cpp\n'}
+[3.151558] (pkg_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.151821] (pkg_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.151937] (pkg_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.164747] (pkg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.220376] (-) TimerEvent: {}
+[3.246163] (pkg_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[3.301300] (pkg_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pkg_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[3.345587] (-) TimerEvent: {}
+[3.360931] (pkg_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libpkg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.409576] (pkg_interfaces) StdoutLine: {'line': b'[ 19%] Built target pkg_interfaces__rosidl_generator_c\n'}
+[3.420774] (pkg_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.461935] (-) TimerEvent: {}
+[3.559250] (pkg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.567150] (-) TimerEvent: {}
+[3.675159] (-) TimerEvent: {}
+[3.685980] (pkg_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.702894] (pkg_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[3.775379] (-) TimerEvent: {}
+[3.876359] (-) TimerEvent: {}
+[3.922458] (pkg_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[3.963545] (pkg_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.976933] (-) TimerEvent: {}
+[4.087443] (-) TimerEvent: {}
+[4.133246] (pkg_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.197849] (-) TimerEvent: {}
+[4.296547] (pkg_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[4.303468] (-) TimerEvent: {}
+[4.307133] (pkg_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.353584] (pkg_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.419386] (-) TimerEvent: {}
+[4.550735] (-) TimerEvent: {}
+[4.606866] (pkg_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.652460] (-) TimerEvent: {}
+[4.664079] (pkg_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.754090] (-) TimerEvent: {}
+[4.764503] (pkg_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.781175] (pkg_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.841971] (pkg_interfaces) StdoutLine: {'line': b'[ 48%] Built target pkg_interfaces__rosidl_typesupport_cpp\n'}
+[4.870478] (-) TimerEvent: {}
+[4.886596] (pkg_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.984875] (-) TimerEvent: {}
+[5.085596] (-) TimerEvent: {}
+[5.100033] (pkg_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.131117] (pkg_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.186823] (-) TimerEvent: {}
+[5.192580] (pkg_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.258841] (pkg_interfaces) StdoutLine: {'line': b'[ 57%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.272075] (pkg_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.290682] (-) TimerEvent: {}
+[5.309440] (pkg_interfaces) StdoutLine: {'line': b'[ 59%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.366260] (pkg_interfaces) StdoutLine: {'line': b'[ 59%] Built target pkg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.397169] (-) TimerEvent: {}
+[5.486272] (pkg_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[5.486497] (pkg_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[5.486594] (pkg_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[5.507207] (-) TimerEvent: {}
+[5.538970] (pkg_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libpkg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.584515] (pkg_interfaces) StdoutLine: {'line': b'[ 68%] Built target pkg_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.608689] (-) TimerEvent: {}
+[5.647869] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.649256] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[5.649677] (pkg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.684653] (pkg_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libpkg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.708777] (-) TimerEvent: {}
+[5.743660] (pkg_interfaces) StdoutLine: {'line': b'[ 76%] Built target pkg_interfaces__rosidl_typesupport_c\n'}
+[5.767331] (pkg_interfaces) StdoutLine: {'line': b'[ 76%] Built target pkg_interfaces\n'}
+[5.791837] (pkg_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.809180] (-) TimerEvent: {}
+[5.914540] (-) TimerEvent: {}
+[6.015412] (-) TimerEvent: {}
+[6.116327] (-) TimerEvent: {}
+[6.217265] (-) TimerEvent: {}
+[6.325763] (-) TimerEvent: {}
+[6.433214] (-) TimerEvent: {}
+[6.533864] (-) TimerEvent: {}
+[6.547120] (pkg_interfaces) StdoutLine: {'line': b'[ 78%] Built target pkg_interfaces__py\n'}
+[6.574036] (pkg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[6.574719] (pkg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[6.576481] (pkg_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pkg_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[6.634216] (-) TimerEvent: {}
+[6.730453] (pkg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.737872] (-) TimerEvent: {}
+[6.785074] (pkg_interfaces) StdoutLine: {'line': b'[ 87%] Built target pkg_interfaces__rosidl_generator_py\n'}
+[6.810233] (pkg_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.810473] (pkg_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.810557] (pkg_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.848451] (-) TimerEvent: {}
+[6.923644] (pkg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.924401] (pkg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.932610] (pkg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.954983] (-) TimerEvent: {}
+[6.979082] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.980235] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.985517] (pkg_interfaces) StdoutLine: {'line': b'[100%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.999683] (pkg_interfaces) CommandEnded: {'returncode': 0}
+[7.000509] (pkg_interfaces) JobProgress: {'identifier': 'pkg_interfaces', 'progress': 'install'}
+[7.014230] (pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arya/robot_ws/build/pkg_interfaces'], 'cwd': '/home/arya/robot_ws/build/pkg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arya'), ('OLDPWD', '/home/arya/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2835'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dev-ar:@/tmp/.ICE-unix/2835,unix/dev-ar:/tmp/.ICE-unix/2835'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c88a679_d87e_4130_9a7b_6625a0317d00'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FGAQ32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/robot_ws/build/pkg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b8821247fda4eca7638e6d167d3a88b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.023281] (pkg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.024860] (pkg_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.024982] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces\n'}
+[7.034660] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__functions.h\n'}
+[7.043565] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__struct.h\n'}
+[7.052816] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__type_support.h\n'}
+[7.055282] (-) TimerEvent: {}
+[7.062577] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__functions.h\n'}
+[7.071060] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__struct.h\n'}
+[7.080833] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__type_support.h\n'}
+[7.090012] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/num.h\n'}
+[7.099770] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.109788] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/sphere.h\n'}
+[7.120163] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/add_three_ints.h\n'}
+[7.130582] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[7.140106] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[7.149917] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[7.155471] (-) TimerEvent: {}
+[7.160238] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.sh\n'}
+[7.169951] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.dsv\n'}
+[7.180734] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[7.190246] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[7.199182] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.210757] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[7.221510] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__builder.hpp\n'}
+[7.231336] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__struct.hpp\n'}
+[7.241355] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__traits.hpp\n'}
+[7.251929] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__type_support.hpp\n'}
+[7.255850] (-) TimerEvent: {}
+[7.261969] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__builder.hpp\n'}
+[7.271646] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__struct.hpp\n'}
+[7.282673] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__traits.hpp\n'}
+[7.291513] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__type_support.hpp\n'}
+[7.302049] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/num.hpp\n'}
+[7.311883] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.321341] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/sphere.hpp\n'}
+[7.331771] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/add_three_ints.hpp\n'}
+[7.341403] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[7.350291] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[7.356839] (-) TimerEvent: {}
+[7.359065] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[7.367876] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[7.378528] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.389664] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.398602] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.407445] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.417035] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[7.426041] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[7.435600] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.444652] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[7.454025] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.456961] (-) TimerEvent: {}
+[7.464508] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.473955] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/include/pkg_interfaces/pkg_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.484218] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.sh\n'}
+[7.494666] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.dsv\n'}
+[7.504503] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.514794] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.524316] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.533335] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.543638] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py\n'}
+[7.553168] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.562193] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.562375] (-) TimerEvent: {}
+[7.572201] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.581858] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/libpkg_interfaces__rosidl_generator_py.so\n'}
+[7.591684] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/__init__.py\n'}
+[7.601166] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_num.py\n'}
+[7.612026] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_num_s.c\n'}
+[7.622650] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_sphere.py\n'}
+[7.631826] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_sphere_s.c\n'}
+[7.641523] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.650365] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.659435] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.662974] (-) TimerEvent: {}
+[7.668740] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py\n'}
+[7.678023] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_add_three_ints.py\n'}
+[7.687813] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_add_three_ints_s.c\n'}
+[7.697693] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.698060] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.698389] (pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.698711] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/msg/Num.idl\n'}
+[7.709806] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/msg/Sphere.idl\n'}
+[7.719533] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/srv/AddThreeInts.idl\n'}
+[7.728745] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/msg/Num.msg\n'}
+[7.737839] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/msg/Sphere.msg\n'}
+[7.747066] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/srv/AddThreeInts.srv\n'}
+[7.756913] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/srv/AddThreeInts_Request.msg\n'}
+[7.763321] (-) TimerEvent: {}
+[7.765720] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/srv/AddThreeInts_Response.msg\n'}
+[7.775149] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces\n'}
+[7.785182] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces\n'}
+[7.794927] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.sh\n'}
+[7.806606] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.816177] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.sh\n'}
+[7.825501] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.dsv\n'}
+[7.834704] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.bash\n'}
+[7.844655] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.sh\n'}
+[7.853940] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.zsh\n'}
+[7.862454] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.dsv\n'}
+[7.863582] (-) TimerEvent: {}
+[7.871644] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.dsv\n'}
+[7.880635] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/ament_index/resource_index/packages/pkg_interfaces\n'}
+[7.889773] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.899372] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.908313] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.917543] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.927915] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.937468] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.946717] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.956076] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig.cmake\n'}
+[7.965235] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig-version.cmake\n'}
+[7.965425] (-) TimerEvent: {}
+[7.974199] (pkg_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/package.xml\n'}
+[7.984929] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so\n'}
+[7.985476] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.985653] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.986076] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.986243] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.986647] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.986801] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.987196] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.987315] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so\n'}
+[7.987710] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.987881] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.988274] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.988417] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.988802] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.033093] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces'...\n"}
+[8.033511] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/__init__.py'...\n"}
+[8.034830] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg'...\n"}
+[8.035331] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/__init__.py'...\n"}
+[8.035415] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_num.py'...\n"}
+[8.035486] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/msg/_sphere.py'...\n"}
+[8.035666] (pkg_interfaces) StdoutLine: {'line': b"Listing '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv'...\n"}
+[8.035752] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/__init__.py'...\n"}
+[8.035823] (pkg_interfaces) StdoutLine: {'line': b"Compiling '/home/arya/robot_ws/install/pkg_interfaces/local/lib/python3.10/dist-packages/pkg_interfaces/srv/_add_three_ints.py'...\n"}
+[8.039187] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so\n'}
+[8.039791] (pkg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/robot_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.039964] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.040139] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.040324] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.040516] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.040718] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.042174] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.042431] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.042555] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.042678] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.042856] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.042943] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.043034] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.043276] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.043442] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.043519] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.043589] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.043657] (pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/arya/robot_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/export_pkg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.046043] (pkg_interfaces) CommandEnded: {'returncode': 0}
+[8.065648] (-) TimerEvent: {}
+[8.066211] (pkg_interfaces) JobEnded: {'identifier': 'pkg_interfaces', 'rc': 0}
+[8.067150] (-) EventReactorShutdown: {}

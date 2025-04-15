@@ -1,0 +1,1 @@
+Invoking command in '/home/arya/robot_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arya/robot_ws/build/more_interfaces -- -j4 -l4

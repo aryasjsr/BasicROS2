@@ -1,0 +1,16 @@
+[1.661s] Invoking command in '/home/arya/robot_ws/build/param_callback': PYTHONPATH=/home/arya/robot_ws/build/param_callback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/param_callback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/param_callback/build --no-deps symlink_data
+[2.067s] running develop
+[2.319s] running egg_info
+[2.321s] writing param_callback.egg-info/PKG-INFO
+[2.324s] writing dependency_links to param_callback.egg-info/dependency_links.txt
+[2.327s] writing entry points to param_callback.egg-info/entry_points.txt
+[2.328s] writing requirements to param_callback.egg-info/requires.txt
+[2.328s] writing top-level names to param_callback.egg-info/top_level.txt
+[2.333s] reading manifest file 'param_callback.egg-info/SOURCES.txt'
+[2.338s] writing manifest file 'param_callback.egg-info/SOURCES.txt'
+[2.345s] running build_ext
+[2.345s] Creating /home/arya/robot_ws/install/param_callback/lib/python3.10/site-packages/param-callback.egg-link (link to .)
+[2.349s] 
+[2.349s] Installed /home/arya/robot_ws/build/param_callback
+[2.364s] running symlink_data
+[2.468s] Invoked command in '/home/arya/robot_ws/build/param_callback' returned '0': PYTHONPATH=/home/arya/robot_ws/build/param_callback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arya/robot_ws/install/param_callback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arya/robot_ws/build/param_callback/build --no-deps symlink_data

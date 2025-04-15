@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/arya/robot_ws/build/srvcli_py",
+        "/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages",
+        "/home/arya/robot_ws/build/pubsub_py",
+        "/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/arya/robot_ws/build/srvcli_py",
+        "/home/arya/robot_ws/install/srvcli_py/lib/python3.10/site-packages",
+        "/home/arya/robot_ws/build/pubsub_py",
+        "/home/arya/robot_ws/install/pubsub_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
