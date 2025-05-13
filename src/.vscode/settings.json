@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/arya/BasicROS2/build/srvcli_py",
+        "/home/arya/BasicROS2/install/srvcli_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/python_parameters",
+        "/home/arya/BasicROS2/install/python_parameters/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/pubsub_py",
+        "/home/arya/BasicROS2/install/pubsub_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/pubsub_interface_py",
+        "/home/arya/BasicROS2/install/pubsub_interface_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/action_py",
+        "/home/arya/BasicROS2/install/action_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/install/pkg_interfaces/local/lib/python3.10/dist-packages",
+        "/home/arya/BasicROS2/install/more_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/arya/BasicROS2/build/srvcli_py",
+        "/home/arya/BasicROS2/install/srvcli_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/python_parameters",
+        "/home/arya/BasicROS2/install/python_parameters/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/pubsub_py",
+        "/home/arya/BasicROS2/install/pubsub_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/pubsub_interface_py",
+        "/home/arya/BasicROS2/install/pubsub_interface_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/build/action_py",
+        "/home/arya/BasicROS2/install/action_py/lib/python3.10/site-packages",
+        "/home/arya/BasicROS2/install/pkg_interfaces/local/lib/python3.10/dist-packages",
+        "/home/arya/BasicROS2/install/more_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
