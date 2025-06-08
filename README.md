@@ -4,14 +4,10 @@ A brief description of your project.
 
 ---
 
-## 📌 Highlight 3.5.2
+## 📌 Tutorial Publisher 3.5.2
 
-- [pub.py](./pub.py)
+- pub.py: (BasicROS2/src/pubsub_py/pub.py)
 
 ---
 
-## 📦 Installation
-
-```bash
-pip install -r requirements.txt
 
