@@ -32,6 +32,16 @@ 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
 
 ## 📌 Tutorial Node dengan parameter 3.8.3
 - param_node.py : [param_node.py](src/python_parameters/python_parameters/param_node.py)
-- sub.py : [sub.py](src/pubsub_interface_py/pubsub_interface_py/sub.py)
 ---
 
+## 📌 Tutorial Node Publisher dengan parameter 3.8.4
+- param_node.py : [param_node.py](src/python_parameters2/python_parameters2/param_node.py)
+---
+
+## 📌 Tutorial Parameter dengan YAML FIles 3.8.5
+- param_node_pub.yaml : [param_node_pub.yaml](src/python_parameters/python_parameters/param_node_pub.yaml)
+---
+
+## 📌 Tutorial Node dengan Callback 3.8.6
+- param_node_callback.py : [param_node_callback.py](src/python_parameters2/python_parameters2/param_node_callback.py)
+---
