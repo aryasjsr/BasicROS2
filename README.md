@@ -53,14 +53,8 @@ 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
 ---
 
 ## 📌 Tutorial Launch publish number dengan python  3.10.2
-- numpub.launch.py : [count_until_client.py](src/robot_bringup/launch/numpub.launch.py)
-- number_counter.py : [number_counter.py](src/numpub_py/numpub_py/number_counter.py)
-- number_publisher.py : [number_counter.py](src/numpub_py/numpub_py/number_publisher.py)
+- numpub.launch.py : [numpub.launch.py](src/robot_bringup/launch/pubsub.launch.py)
 ---
 
-## 📌 Tutorial Launch publish number dengan xml  3.10.3
-- numpub.launch.xml : [count_until_client.py](src/robot_bringup/launch/numpub.launch.xml)
-- number_counter.py : [number_counter.py](src/numpub_py/numpub_py/number_counter.py)
-- number_publisher.py : [number_counter.py](src/numpub_py/numpub_py/number_publisher.py)
----
+
 
