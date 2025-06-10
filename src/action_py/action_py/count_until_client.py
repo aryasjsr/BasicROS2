@@ -46,7 +46,7 @@ class CountUntilClientNode(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = CountUntilClientNode()
-    node.send_goal(-5, 2.0)
+    node.send_goal(5, 2.0) #This will send a goal to the action server to count until 5 with a delay of 2 seconds between counts
     rclpy.spin(node)
     rclpy.shutdown()
 
