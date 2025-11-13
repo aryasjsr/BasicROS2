@@ -4,7 +4,7 @@ Basic ROS2, resource code untuk tutorial ROS2 part 1 dan part 2. Cari code yang 
 ---
 
 ## 📌 Tutorial Publisher 3.5.2
-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
+
 - pub.py : [pub.py](src/pubsub_py/pubsub_py/pub.py)
 - sub.py : [sub.py](src/pubsub_py/pubsub_py/sub.py)
 ---
